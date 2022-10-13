@@ -1,7 +1,11 @@
-### Bootstrap - Introdução
-Curso Desenvolvimento Web Completo 2022.<br><br>
+# Bootstrap - Introdução
+Curso Desenvolvimento Web Completo 2022.<br>
 
-Neste curso, é utilizado o Bootstrap-4 (atualmente, já foi lançada a versão 5).
+<hr>
+
+## Aula 01 - Configurando o Bootstrap
+
+Neste curso, é utilizado o Bootstrap-4 (atualmente, já foi lançada a versão 5).<br>
 Inicialmente, criar um arquivo index.html e colar o conteúdo do <a href="https://getbootstrap.com/docs/4.1/getting-started/download/" target="_blank">link</a> disponível no conteúdo da aula (na aba Introdução). <br><br>
 
 Atributos no &lt;head&gt;:
@@ -21,3 +25,50 @@ Configurando o bootstrap.css:
 Optional JavaScript:
 - são códigos Javascript que não são obrigatórios, podem ser removidos sem alterar o funcionamento do BS;
 - o professor mantém, pois alguns dos recursos que ele ensina utilizam JS.
+
+<hr>
+
+## Aula 02 - Formatação de textos
+
+As classes podem ser aplicadas em diversos outros elementos e tags, como span, div, etc.<br>
+É possível também utilizar mais de uma classe por vez.<br><br>
+
+A) Display classes:
+- dão maior destaque aos título;
+- &lt;h1 class="display-1"&gt; - o texto recebe outra formatação, dando maior destaque;
+- há classes de display de 1 a 4.<br>
+
+B) Parágrafo:
+- &lt;p class="lead"&gt; - garante destaque ao parágrafo, mudando sua formatação.<br>
+
+C) Parágrafo Monospace:
+- tem o mesmo espaçamento e largura para todas as letras (caracteres com mesma largura);
+- aplicação: &lt;p class="text-monospace"&gt;.<br>
+
+D) Classes de estilo:
+- texto em negrito: &lt;p class="font-weight-bold"&gt;;
+- texto normal: &lt;p class="font-weight-normal"&gt;;
+- texto em itálico: &lt;p class="font-italic"&gt;.<br>
+
+E) Transformação de textos:
+- letras maiúsculas: &lt;p class="text-uppercase"&gt;&lt;/p&gt;;
+- letras minúsculas: &lt;p class="text-lowercase"&gt;&lt;/p&gt;;
+- primeira maiúscula: &lt;p class="text-captalize"&gt;&lt;/p&gt;.
+
+F) Alinhamentos:
+- à direita: &lt;p class="text-right"&gt;&lt;/p&gt;;
+- à esquerda: &lt;p class="text-left"&gt;&lt;/p&gt;;
+- centralizado: &lt;p class="text-center"&gt;&lt;/p&gt;.<br>
+
+G) Bloco de Citação:
+- tag &lt;blockquote&gt; cria o bloco de citação, podendo também aplicar a class de mesmo nome;
+- pode utilizar ainda a classe "blockquote-footer", que dá uma formatação especial ao bloco no rodapé;
+- tag &lt;cite&gt; citação, para indicar um autor, por exemplo (deixa em itálico).<br>
+
+H) Truncate: 
+- classe utilizada para truncar ou cortar partes do texto;
+- aplicar no &lt;p&gt;, por exemplo (&lt;p class="text-truncate&gt;) - ao expandir a tela, o texto vai aparecendo mais e, ao passar o mouse em cima, aparece o texto todo (apenas no safari).<br>
+
+I) Listas sem título:
+- class="list-unstyled": remove o estilo da lista, sem marcadores;
+- class="list-inline" (na lista) e "list-inline-item" (em cada um dos elementos dentro da lista).
