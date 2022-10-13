@@ -3,7 +3,7 @@ Curso Desenvolvimento Web Completo 2022.<br>
 
 <hr>
 
-## Aula 01 - Configurando o Bootstrap
+## Aulas 01 e 02 - Configurando o Bootstrap
 
 Neste curso, é utilizado o Bootstrap-4 (atualmente, já foi lançada a versão 5).<br>
 Inicialmente, criar um arquivo index.html e colar o conteúdo do <a href="https://getbootstrap.com/docs/4.1/getting-started/download/" target="_blank">link</a> disponível no conteúdo da aula (na aba Introdução). <br><br>
@@ -28,7 +28,7 @@ Optional JavaScript:
 
 <hr>
 
-## Aula 02 - Formatação de textos
+## Aula 03 - Formatação de textos
 
 As classes podem ser aplicadas em diversos outros elementos e tags, como span, div, etc.<br>
 É possível também utilizar mais de uma classe por vez.<br><br>
