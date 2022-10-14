@@ -143,3 +143,18 @@ D) Colar no topo (sticky):
 <hr>
 
 ## Aula 06 - Cores & Backgrounds.
+
+A) Classes para formatação de textos:
+- class="text-primary";
+- class="text-secundary";
+- class="text-success" - pode ser utilizado para exibição de mensagens de sucesso ao usuário;
+- class="text-info";
+- class="text-warning";
+- class="text-danger";
+- class="text-light"; 
+- class="text-dark";
+- class=""
+- class=""
+- class=""
+
+B) "
