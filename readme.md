@@ -1,6 +1,6 @@
 # Bootstrap - Introdução
 
-Curso Desenvolvimento Web Completo 2022.<br>
+Anotações e aplicação do conteúdo estudado na Seção 7: Boostrap 4 & Design responsivo do Curso Desenvolvimento Web Completo 2022.<br>
 
 <hr>
 
@@ -117,3 +117,29 @@ E) Elemento Inline-Block:
 - class="d-inline-block": converte o elemento para esse tipo híbrido;
 - elemento inline não permite aplicar margem e padding superior, nem definir largura (já o block, permite a aplicação desses atributos);
 - o inline-block, por sua vez, permite margem superior, padding e largura (como block), e mantém os elementos na mesma linha (como inline). Por isso [e chamado de híbrido.<br>
+
+<hr>
+
+## Aula 05 - Elementos flutuantes.
+
+A) Elementos flutuantes:
+
+- class="float-left" ou "float-right";
+- a div com elementos flutuantes não tem altura. Para corrigir, podemos utilizar o "clear:both" - já no bootstrap, aplicar no elemento pai (parent, que abriga a div flutuante) a class="clearfix".<br>
+
+B) Posicionamento fixo:
+
+- class="fixed-top" ou "fixed-bottom".<br>
+
+C) Floats responsivos:
+
+- class="float-tamanhoTela-direcao";
+- apenas direções "left" e "right".<br>
+
+D) Colar no topo (sticky):
+
+- class="sticky-top": "gruda" a lista no topo quando a mesma o atinge (quando o menu chega lá em cima da página).<br>
+
+<hr>
+
+## Aula 06 - Cores & Backgrounds.
