@@ -17,7 +17,8 @@
 
     <body style="margin-bottom: 200px;padding: 16px;">
 
-      <p><strong>AULA 03 - FORMATAÇÃO DE TEXTOS</strong></p>
+    <div>
+      <h1>AULA 03 - FORMATAÇÃO DE TEXTOS</h1>
 
       <br>
       <br>
@@ -122,8 +123,10 @@
       <br>
       <hr>
 
-      <p><strong>AULA 04 - ALINHAMENTO DE TEXTOS</strong></p>
+    </div> <!-- FIM AULA 03 -->
 
+    <div>
+      <h1>AULA 04 - ALINHAMENTO DE TEXTOS</h1>
       <br>
 
     <!-- Parágrafo justificado -->
@@ -133,12 +136,9 @@
       <br>
       <br>
   
-      <!-- 
-          Alinhamento responsivo - 
-          class text-<tela>-<alinhamento>
-              tela: sm, md, lg, xl
-              alinhamento: left, center, right
-       -->
+    <!-- Alinhamento responsivo - class text-<tela>-<alinhamento>
+            tela: sm, md, lg, xl
+            alinhamento: left, center, right -->
       <p class="text-sm-center">tela &gt;= 576px</p><!--Small-->
       <p class="text-md-center">tela &gt;=  768px</p><!--Medium-->
       <p class="text-lg-center">tela &gt;= 992px</p><!--Large-->
@@ -147,14 +147,14 @@
       <br>
       <br>
   
-      <!-- Elemento Block para inline -->
+    <!-- Elemento Block para inline -->
       <h1 class="bg-success d-inline">Lorem ipsum dolor</h1>
       <p class="bg-success d-inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
   
       <br>
       <br>
   
-      <!-- Elemento Inline para Block -->
+    <!-- Elemento Inline para Block -->
       <span class="bg-success d-block">Lorem ipsum dolor 1</span>
       <br>
       <span class="bg-success d-block">Lorem ipsum dolor 2</span>
@@ -162,7 +162,7 @@
       <br>
       <br>
   
-      <!-- Elemento Inline-Block -->
+    <!-- Elemento Inline-Block -->
       <div class="bg-warning">
           <h3 class="bg-success d-inline-block">Lorem ipsum</h3>
           <h3 class="bg-success d-inline-block" style="margin-top: 50px;width: 400px;">Lorem ipsum dolor</h3>
@@ -170,85 +170,87 @@
  
       <br>
       <hr>
-      <p><strong>AULA 05 - ELEMENTOS FLUTUANTES</strong></p>
 
-      <br>
+    </div> <!-- FIM AULA 04 -->
+
+    <div>
+    <h1>AULA 05 - ELEMENTOS FLUTUANTES</h1>
+    <br>
 
     <!-- Elementos flutuantes -->
     <div style="border: 1px solid red;" class="clearfix">
       <div class="bg-success float-left">Float Left</div>
       <div class="bg-warning float-right">Float Right</div>
-  </div>
+    </div>
 
-  <!-- Posicionamento fixo - top e bottom -->
-  <h1 class="bg-success fixed-bottom">Título do conteúdo fixo</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
+    <!-- Posicionamento fixo - top e bottom -->
+      <h1 class="bg-success fixed-bottom">Título do conteúdo fixo</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
 
-  <!-- 
-      Float responsivo - float-<tela>-<direcao>
+    <!-- Float responsivo - float-<tela>-<direcao>
           tela: sm, md, lg, xl
-          alinhamento: left, right
-   -->
-  <div class="float-sm-right">tela &gt;= 576px * </div><!--Small-->
-  <div class="float-md-right">tela &gt;=  768px * </div><!--Medium-->
-  <div class="float-lg-right">tela &gt;= 992px * </div><!--Large-->
-  <div class="float-xl-right">tela &gt;= 1200px * </div><!--Extra Large-->
+          alinhamento: left, right -->
+      <div class="float-sm-right">tela &gt;= 576px * </div><!--Small-->
+      <div class="float-md-right">tela &gt;=  768px * </div><!--Medium-->
+      <div class="float-lg-right">tela &gt;= 992px * </div><!--Large-->
+      <div class="float-xl-right">tela &gt;= 1200px * </div><!--Extra Large-->
 
-  <br>
-  <br>
+      <br>
+      <br>
 
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
+    
+    <!-- Colar no topo (sticky) -->
+      <ul class="list-inline bg-warning sticky-top">
+        <li class="list-inline-item">Item 1</li>
+        <li class="list-inline-item">Item 2</li>
+        <li class="list-inline-item">Item 3</li>
+      </ul>
 
-  <!-- Colar no topo (sticky) -->
-  <ul class="list-inline bg-warning sticky-top">
-    <li class="list-inline-item">Item 1</li>
-    <li class="list-inline-item">Item 2</li>
-    <li class="list-inline-item">Item 3</li>
-  </ul>
+      <h1>Título do conteúdo</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
 
-  <h1>Título do conteúdo</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
+      <h1>Título do conteúdo</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
 
-  <h1>Título do conteúdo</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
+      <h1>Título do conteúdo</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
 
-  <h1>Título do conteúdo</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
+      <h1>Título do conteúdo</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
 
-  <h1>Título do conteúdo</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
+     <h1>Título do conteúdo</h1>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
 
-  <h1>Título do conteúdo</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
+     <h1>Título do conteúdo</h1>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
 
-  <h1>Título do conteúdo</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
+     <h1>Título do conteúdo</h1>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
+     
+     <h1>Título do conteúdo</h1>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
+     
+     <h1>Título do conteúdo</h1>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
 
-  <h1>Título do conteúdo</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
+    <br>
+    <hr>
 
-  <h1>Título do conteúdo</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
+    </div> <!-- FIM AULA 05 -->
 
-  <h1>Título do conteúdo</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
-
-
-  <br>
-  <hr>
-
-  <p><strong>AULA 06 - CORES & BACKGROUNDS</strong></p>
-
+    <div>
+  <h1>AULA 06 - CORES & BACKGROUNDS</h1>
   <br>
 
     <!-- Classes para formatação de textos -->
@@ -296,9 +298,11 @@
 
     <br>
     <hr>
+
+    </div> <!-- FIM AULA 06 -->
   
-    <p><strong>AULA 07 - MARGIN & PADDING</strong></p>
-  
+    <div>
+    <h1>AULA 07 - MARGIN & PADDING</h1>
     <br>
     <div style="clear: both;"></div>
     <!-- Aplicação de Margin
@@ -340,8 +344,11 @@
 
     <br>
     <hr>
-  
-    <p><strong>AULA 08 - TAMANHOS & BORDAS</strong></p>
+    
+    </div> <!-- FIM AULA 07 -->
+
+    <div>
+    <h1>AULA 08 - TAMANHOS & BORDAS</h1>
   
     <br>
     <div style="margin-bottom: 200px; width: 600px; margin: 0 auto;">
@@ -400,15 +407,16 @@
     
     <br>
     <hr>
-  
-    <p><strong>AULAS 09 E 10 - MEDIA QUERIES (ARQUIVO <a href="../media-queries/index.html">BREAKPOINTS.HTML</a>)</strong></p>
-  
-    <br>
+    </div> <!-- FIM AULA 08 -->
 
+    <div>
+    <h1>AULAS 09 E 10 - MEDIA QUERIES (ARQUIVO <a href="../media-queries/index.html">BREAKPOINTS.HTML</a>)</h1>
+    <br>
     <hr>
+    </div> <!-- FIM DAS AULAS 09 E 10 -->
   
-    <p><strong>AULA 11 - BOTÕES.</strong></p>
-  
+    <div>
+    <h1>AULA 11 - BOTÕES.</h1>
     <br>
 
       <!-- Botoes 
@@ -499,6 +507,14 @@
               <a href="#" class="dropdown-item">Link 3</a>
           </div>
       </div>
+      <hr>
+    </div> <!-- FIM AULA 11 -->
+
+    <div>
+      <h1>AULA 12 - INTRODUÇÃO: BARRA DE NAVEGAÇÃO.</h1>
+      <br>
+
+    </div> <!-- FIM AULA 12 -->
 
 
 
