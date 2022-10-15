@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
 
     <style type="text/css">
         
@@ -23,48 +23,60 @@
         /*Medium devices (tablets, 768px e superior)*/
         @media (min-width: 768px) {
           body {
-            
+            background: blue;
           }
         }
 
         /*Large devices (desktops, 992px e superior)*/
-        @media () {}
+        @media (min-width: 992px) {
+          body {
+            background: yellow;
+          }
+        }
 
         /*Extra large devices (large desktops, 1200px e superior)*/
-        @media () {}
-
-
+        @media (min-width: 1200px) {
+          body {
+            background: gray;
+          }
+        }
 
         /**************************/
         /* Extra small devices (portraint phones) */
-        @media () {}
+        @media (max-width: 575px) {
+          body {
+            background: #870000;
+          }
+        }
 
         /* Small devices (Landscape Phones) */
-        @media () {}
+        @media (max-width: 767px) {}
 
         /* Medium devices (Tablets) */
-        @media () {}
+        @media (max-width: 991px) {}
 
         /* Large devices (Desktops) */
-        @media () {}
+        @media (max-width: 1199px) {}
 
 
 
         /******************************************/
-        /*Extra small devices (portrait phones, menor que 576px)*/
-        @media () {}
+        /* Media queries definidas com min e max-width: */
 
-        /*Small devices (landscape phones, 576px e maiores)*/
-        @media () and () {}
+        /* Extra small devices (portrait phones, less than 576px) */
+        @media (max-width: 575.98px) {}
 
-        /*Medium devices (tablets, 768px e maiores)*/
-        @media () and () {}
+        /* Small devices (landscape phones, 576px and up) */
+        @media (min-width: 576px) and (max-width: 767.98px) {}
 
-        /*Large devices (desktops, 992px e maiores)*/
-        @media () and () {}
+        /* Medium devices (tablets, 768px and up) */
+        @media (min-width: 768px) and (max-width: 991.98px) {}
 
-        /*Extra large devices (large desktops, 1200px  e maiores)*/
-        @media () {}
+        /* Large devices (desktops, 992px and up) */
+        @media (min-width: 992px) and (max-width: 1199.98px) {}
+
+        /* Extra large devices (large desktops, 1200px and up) */
+        @media (min-width: 1200px) {}
 
     </style>
 

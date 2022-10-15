@@ -234,6 +234,8 @@ D) Border radius:
 
 ## Aula 09 - Media queries (parte 01).
 
+(Arquivo ../media-queries/index.html)<br>
+
 - utilizadas para fazer exibições diferentes baseado no tamanho do dispositivo = conceio de layout responsivo. <br>
 
 A) Tipos de mídias (Media types):
@@ -261,3 +263,19 @@ B) Exemplos:
 C)<a href="https://getbootstrap.com/docs/4.1/layout/overview/"> Links de media queries no Bootstrap</a>.<br>
 
 D) Exemplos de utilização media queries: @media (min-width: tamanho da tela) {formatação a ser aplicada pra essa categoria}.<br>
+
+
+<hr>
+
+## Aula 10 - Media queries (parte 02).
+
+(Arquivo ../media-queries/index.html)<br>
+
+As definições de larguras mínimas para exibição do site são chamadas de breakpoint (pontos de quebra ou pontos de interrupção). Ou seja, nesses pontos são feitas as mudanças de layout (define formatações específicas para cada tipo de dispositivo).<br>
+
+No <a href="https://getbootstrap.com/docs/4.0/layout/overview/">site do bootstrap</a> há os valores padrão de width. São combinados valores de max e min width para definir intervalos de tamanhos de dispositivos.<br>
+
+
+<hr>
+
+## Aula 11 - Botões.
