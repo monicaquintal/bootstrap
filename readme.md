@@ -203,3 +203,33 @@ B) Padding:
 <hr>
 
 ## Aula 08 - Tamanhos & Bordas.
+
+A) Classes de largura:
+- é possível usar classes do bootstrap para definir larguras por porcentagem;
+- utilizar "w-%".<br>
+
+B) Classes de altura:
+- também é definida em %;
+-utilizar "h-%".<br>
+
+C) Bordas:
+- há os atributos:
+  - border: todas as bordas
+  - border-top: borda superior
+  - border-bottom: borda inferior
+  - border-right: bordar direita
+  - border-left: borda esquerda
+- possibilidades de cores de bordas:
+  - primary, secondary, success, info, warning, danger, light, dark, white;
+  - utilizar "border-cor". <br>
+
+D) Border radius:
+- rounded - arredonda todos os lados;
+- rounded-top - arredonda o topo;
+- rounded-right - arredonda a direita;
+- rounded-left - arredonda a esquerda;
+- rounded-circle - converte em um círculo.<br>
+
+<hr>
+
+## Aula 09 - Media queries (parte 01).
