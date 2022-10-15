@@ -146,15 +146,34 @@ D) Colar no topo (sticky):
 
 A) Classes para formatação de textos:
 - class="text-primary";
-- class="text-secundary";
+- class="text-secondary";
 - class="text-success" - pode ser utilizado para exibição de mensagens de sucesso ao usuário;
 - class="text-info";
 - class="text-warning";
 - class="text-danger";
 - class="text-light"; 
-- class="text-dark";
-- class=""
-- class=""
-- class=""
+- class="text-dark" - é a cor de texto padrão;
+- class="text-white";
+- class="text-black-50" - aplicada opacidade de 50% sobre a cor padrão;
+- class="text-white-50" - também recebe opacidade sobre a cor branca, se tornando mais claro. Pode ser usado, por exemplo, para formatar textos que ficam sobre imagens. <br>
 
-B) "
+B) Formatações de links:
+- exatamente as mesmas classes acima.<br>
+
+C) Backgrounds:
+- ao invés de "text", colocar "bg" nas mesmas classes acima.
+- class="bg-primary";
+- class="bg-secondary";
+- class="bg-success";
+- class="bg-info";
+- class="bg-warning";
+- class="bg-danger";
+- class="bg-light";
+- class="bg-dark";
+- class="bg-white";
+- class="bg-transparent".<br>
+
+
+<hr>
+
+## Aula 07 - Margin & Padding.
