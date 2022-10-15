@@ -279,3 +279,24 @@ No <a href="https://getbootstrap.com/docs/4.0/layout/overview/">site do bootstra
 <hr>
 
 ## Aula 11 - Botões.
+
+A) Botões:
+- a formatação padrão é: class="btn";
+- formatação específicas: btn-primary, btn-secondary, btn-success, btn-info, btn-warning, btn-danger, btn-light, btn-dark, btn-link;
+- utilizar a classe "btn" junto com a classe de formatação, ex: "btn btn-dark";
+- é possível aplicar a formatação de botões em diferentes tags, como link, button, input (submit, reset, etc);
+- para inserir contorno, utilizar class="btn btn-outline-formatação";
+- há também diferentes opções de tamanho de botão: btn-lg, btn-sm, btn-block (botão bloco ocupa todo o espaçamento disponível);
+- podemos controlar os estados do botão: active, disabled, alternar entre estados (incluir o atributo data-toggle="button").<br>
+
+B) Grupos de botões:
+- horizontal: class="btn-group" na &lt;div&gt;;
+- vertical: class="btn-group-vertical" na &lt;div&gt;;
+- toolbar: class="btn-toolbar" na &lt;div&gt;;
+- botões dropdown: na &lt;div&gt; externa, incluir class="dropdown-toggle" e data-toggle="dropdown". Em seguida, adicionar à &lt;div&gt; que agrupa os links class="dropdown-menu", e em cada um dos links, class="dropdown-item".
+  - obs: "dropdown-divider", quando aplicado em uma div entre os links, cria um divisor entre eles. 
+<br>
+
+<hr>
+
+## Aula 12 - Introdução: barra de navegação.
