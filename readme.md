@@ -173,7 +173,33 @@ C) Backgrounds:
 - class="bg-white";
 - class="bg-transparent".<br>
 
-
 <hr>
 
 ## Aula 07 - Margin & Padding.
+
+A) Margin:
+- Valor a definir, que vão de 0 até 5, sendo uma unidade de medida do CSS (REM);
+- Abreviações:
+  - mt -> Margin Top
+  - mb -> Margin Bottom
+  - ml -> Margin Left
+  - mr -> Margin Right
+  - mx -> Margin no eixo x (horizontal) esquerda/direita
+  - my -> Margin no eixo y (vertical) top/bottom
+  - m  -> Margin em todos os lados <br>
+
+B) Padding:
+- aplicado da mesma maneira, apenas trocando o m por p;
+- valor a definir (0 até 5)
+- abreviações:
+  - pt -> Padding Top
+  - pb -> Padding Bottom
+  - pl -> Padding Left
+  - pr -> Padding Right
+  - px -> Padding no eixo x (horizontal) esquerda/direita
+  - py -> Padding no eixo y (vertical) top/bottom
+  - p  -> Padding em todos os lados<br>
+
+<hr>
+
+## Aula 08 - Tamanhos & Bordas.
