@@ -419,7 +419,7 @@ D) Button:
 - classes btn, conforme já estudado em aulas anteriores. <br>
 
 E) Formulários inline:
-- aplicasa a class="form-inline" na tar &lt;form&gt;.<br>
+- aplicasa a class="form-inline" na tag &lt;form&gt;.<br>
 
 F) Validação de formulário:
 - a validação é feira via JS, e as classes são aplicadas a partir dela;
@@ -427,3 +427,30 @@ F) Validação de formulário:
 <hr>
 
 ## Aula 17 - Input group.
+
+A) Grupo prepend:
+- o conteúdo é exibido antes da caixa de texto;
+- &lt;div class="input-group-prepend"&gt;, e na span usar class="input-group-text".<br>
+
+B) Grupo append:
+- input vem primeiro, depois a div com o span (com @gmail.com);
+- nesse caso, &lt;div class="input-group-append"&gt;. <br>
+
+C) URL customizada:
+- utiliza-se também o prepend, como no caso A.<br>
+
+D) Moeda:
+- combinação do prepend para o cifrão, e o append para as casas decimais.<br>
+
+E) Ckeckbox / radio:
+- input-group-prepend aplicada na div.<br>
+
+F) Múltiplos inputs:
+- aplicam-se as mesmas funcionalidades acima; verificar que a formatação fica como "uma coisa só", com os cantos arredondados, apesar de serem múltimos inputs. <br>
+
+G) Pesquisas:
+- também utiliza append.<br>
+
+<hr>
+
+## Aula 18 - Alertas & Barra de progresso.
