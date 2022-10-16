@@ -399,6 +399,31 @@ E) Breadcrumb:
 
   <hr>
 
-  ## Aula 16 - Formulários.
+## Aula 16 - Formulários.
 
-  
+A) Elementos de texto (como label, input, email):
+- &lt;div&gt; é utilizada para agrupar os elementos (como label e input), podendo ainda aplicar na div a class="form-group" para dar espaçamento.
+- no &lt;input&gt; podemos usar a class="form-control", que da formatação na caixa de texto -> podemos usar essa classe tambem em selects e textareas;
+  - há também as opções sm e lg, que alteram o tamanho da caixa de texto (exemplo: "form-control-lg");
+- o atributo "readonly" deixa o campo cinza e impede que o usuário clique;
+- a classe "form-text" é a formatação padrão para textos dentro de um formulário. <br>
+
+B) Inputs tipo file: 
+- podemos utilizar a class="form-control-file" para selecionar um arquivo;
+- temos outra opção, que é aplicar a class="custom-file" na div, na label a class="custom-file-label", e no input class="custom-file-input".<br>
+
+C) Range:
+- no input, a class="custom-range" altera a formatação. <br>
+
+D) Button:
+- classes btn, conforme já estudado em aulas anteriores. <br>
+
+E) Formulários inline:
+- aplicasa a class="form-inline" na tar &lt;form&gt;.<br>
+
+F) Validação de formulário:
+- a validação é feira via JS, e as classes são aplicadas a partir dela;
+- classes: is-valid, is-invalid, invalid-feedback, valid-feedback.<br>
+<hr>
+
+## Aula 17 - Input group.
