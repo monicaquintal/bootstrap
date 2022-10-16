@@ -345,3 +345,30 @@ A) Barra de navegação com menu responsivo:
 <hr>
 
 ## Aula 14 - Barra de navegação - parte 02.
+
+A) Barra de navegação com formulário:
+- inserido dentro da &lt;nav&gt;, imediatamente antes do seu fechamento:
+  - &lt;form class="form-inline"&gt;
+  - &lt;input type="text" class="form-control" placeholder="pesquisar"&gt; e
+  - &lt; button class="btn btn-outline-success"&gt;
+- caso coloque o formulário dentro da div que controla o menu hamburguer, ele também ficará oculto em telas menores, assim como a barra de navegação, no exemplo da aula anterior. <br>
+
+B) Barra de navegação com menu dropdown:
+- são menus em que aparecem outras opções quando clicamos;
+- definir:
+  - class="dropdown" no &lt;li&gt;;
+  - class="dropdown-toggled" e data-toggle="dropdown" no &lt;a&gt;;
+  - class="dropdown-menu" na &lt;div&gt;;
+  - class="dropdown-item" no &lt;a&gt; que fica dentro da div.<br>
+
+C) Cores:
+- podem ser aplicadas as mesmas cores para bg (bg-primary, bg-secondary, bg-success, bg-info, bg-warning, bg-danger, bg-light, bg-dark) e navbar (dark e light), já estudadas anteriormente. <br>
+
+D) Alinhamentos:
+- class="navbar fixed-top" -> fixa a barra de navegação no topo da página;
+- class="navbar fixed-bottom" -> fixa a barra de navegação no fim da página;
+- class="navbar sticky-top" -> após passar pela barra de navegação, ela é fixada.<br>
+
+<hr>
+
+## Aula 15 - Listas.
