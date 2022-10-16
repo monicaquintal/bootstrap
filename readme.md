@@ -296,7 +296,6 @@ B) Grupos de botões:
 - botões dropdown: na &lt;div&gt; externa, incluir class="dropdown-toggle" e data-toggle="dropdown". Em seguida, adicionar à &lt;div&gt; que agrupa os links class="dropdown-menu", e em cada um dos links, class="dropdown-item".
   - obs: "dropdown-divider", quando aplicado em uma div entre os links, cria um divisor entre eles. 
 <br>
-
 <hr>
 
 ## Aula 12 - Introdução: barra de navegação.
@@ -334,3 +333,15 @@ B) Barra de Navegação Simples:
 <hr>
 
 ## Aula 13 - Barra de navegação - parte 01.
+
+A) Barra de navegação com menu responsivo:
+- cria um menu hamburguer (estrutura que "esconde" o menu de navegação de um site e deixa a página mais “limpa”, usado especialmente em dispositivos com telas menores);
+- criar um botão para o menu hamburguer, utilizando:
+  - &lt;button class="navbar-toggler" data-toggle:"collapse" data-target="#nav-target"&gt;;
+  - &lt;span class="navbar-toggler-icon"&gt;;
+  - criar uma div que englobe toda a ul, e inserir a class="collapse navbar-collapse" e o id="nav-target";
+- portanto, devemos definir o data-toggle="collapse" e em seguida o data-target (item que queremos exibir ou ocultar quando o botão for clicado).
+<br>
+<hr>
+
+## Aula 14 - Barra de navegação - parte 02.
