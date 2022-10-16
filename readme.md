@@ -4,7 +4,7 @@ Anotações e aplicação do conteúdo estudado na Seção 7: Boostrap 4 & Desig
 
 <hr>
 
-## Aulas 01 e 02 - Configurando o Bootstrap
+## Aulas 01 e 02 - Configurando o Bootstrap.
 
 Neste curso, é utilizado o Bootstrap-4 (atualmente, já foi lançada a versão 5).<br>
 Inicialmente, criar um arquivo index.html e colar o conteúdo do <a href="https://getbootstrap.com/docs/4.1/getting-started/download/" target="_blank">link</a> disponível no conteúdo da aula (na aba Introdução). <br><br>
@@ -32,7 +32,7 @@ Optional JavaScript:
 
 <hr>
 
-## Aula 03 - Formatação de textos
+## Aula 03 - Formatação de textos.
 
 As classes podem ser aplicadas em diversos outros elementos e tags, como span, div, etc.<br>
 É possível também utilizar mais de uma classe por vez.<br><br>
@@ -300,3 +300,37 @@ B) Grupos de botões:
 <hr>
 
 ## Aula 12 - Introdução: barra de navegação.
+
+Disponibilizada a <a href="https://getbootstrap.com/docs/4.1/components/navs/">documentação oficial sobre Navs (Navegação)</a> para consulta.<br>
+
+A) Navegação simples/abas:
+- &lt;ul class="nav"&gt; -> os itens passam a ser exibidos inline;
+- &lt;li class="nav-item"&gt; -> define que trata-se de um item da navegação;
+- &lt;a href="" class="nav-link"&gt; -> insere o link na navegação;
+- devem ser definidos os 3 parâmetros listados;
+- as classes nav-item e nav-link determinam o espaçamento entre os itens;
+- há também diferentes tipos de navegação:
+  - nav-pills -> no exemplo: &lt;ul class="nav nav-pills"&gt; e &lt;a href="" class="nav-link active"&gt; - usar para indicar qual a página ativa no momento;
+  - nav-tabs: navegação por abas -> no exemplo: &lt;ul class="nav nav-tabs"&gt; e &lt;a href="" class="nav-link active"&gt;.
+- podemos também alinhar a navegação: (por padrão, fica à esquerda)
+  - justify-content-center: &lt;ul class="nav nav-tabs justify-content-center"&gt; -> alinha o menu de navegação centralizado;
+  - justify-content-end: alinha a navegação à direita; 
+  - flex-column: deixa a estrutura em colunas.
+- há também a classe disabled, que inativa um link, mudando dua cor, indicando que está inativo para o usuário.
+  <br>
+
+B) Barra de Navegação Simples:
+- a class="navbar" cria uma barra de navegação; para isso, aplicar: 
+  - &lt;nav class="nav-bar"&gt;
+  - &lt;ul class="navbar-nav"&gt;;
+  - &lt;li class="nav-item"&gt; e 
+  - &lt;a href="" class="nav-link"&gt;. 
+- entretando, inserindo apenas o descrito acima, a navegação ficará à direita e o logo, à esquerda. Portanto, inserir outra class: &lt;nav class="navbar navbar-expand-tamanhodatela"&gt;, para adequar esse "espaçamento" ao dispositivo específico;
+- class="navbar-brand": indica que o item é o logo da barra de navegação;
+- é possível também utilizar backgrounds, utilizando duas classes:
+  - na &lt;nav&gt;, inserir: navbar-dark ou navbar-light;
+  - podemos aplicar também o bg dentro desta class.
+<br>
+<hr>
+
+## Aula 13 - Barra de navegação - parte 01.
