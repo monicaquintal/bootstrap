@@ -372,3 +372,33 @@ D) Alinhamentos:
 <hr>
 
 ## Aula 15 - Listas.
+
+A) Listas:
+- aplicar class="list-group" na &lt;ul&gt; e class="list-item" nas &lt;li&gt;;
+- a classe "active" deixa o item selecionado como "ativo".<br>
+
+B) Classe flush:
+- &lt;ul class="list-group list-group-flush"&gt;;
+- a lista terá apenas bordas superior e inferior (não possui borda lateral e arredondamento no canto);
+- a classe "active" deixa o item selecionado como "ativo".<br>
+
+C) Classes contextuais:
+- inserir: class=list-group-item-opçãoescolhida;
+- opções: primary, secondary, success, info, warning, danger, light, dark. <br>
+
+D) Badges:    
+- são muito comuns nos e-mails;   
+- classe: badge-opçãoescolhida;
+- opções: primary, secondary, success, info, warning, danger, light, dark.<br>
+
+E) Breadcrumb:
+- usadas para identificar o local em que o usuário encontra-se no site;
+- aplicar:
+  - &lt;ol class="breadcrumb"&gt;;
+  - &lt;li class="breadcrumb-item"&gt; e selecionar o item ativo incluindo "active" na class escolhida.<br>
+
+  <hr>
+
+  ## Aula 16 - Formulários.
+
+  
