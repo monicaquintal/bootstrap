@@ -454,3 +454,33 @@ G) Pesquisas:
 <hr>
 
 ## Aula 18 - Alertas & Barra de progresso.
+
+A) Alertas: 
+- usados principalmente para envia mensagens aos usuários.
+- class="alert" aplica espaçamento interno; se incluir outra classe, como class="alert alert-primary", adicionará cor;
+- primary, secondary, success, danger, warning, info, light, dark.<br>
+
+B) Alerta com botão fechar:
+- aplicar classe "alert-dismissible" na div;
+- aplicar class="close" na tag button;
+- adicionar o atributo data-dismiss="alert".<br>
+
+C) Alerta com mais conteúdos:
+- adicionar os conteúdos e utilizar as mesmas classes explicadas anteriormente.<br>
+
+D) Barra de progresso:
+- na div externa, aplicar a class="progress" (aplica o fundo cinza);
+- na div interna, utilizar a class="progress-bar w-75" - lembrar de definir a largura, a qual indica a %;
+- ao invés do w, pode usar diretamente style="width: 45%;" ou digitar diretamente a porcentagem entre a div de abertura e fechamento.<br>
+- observações:
+  - para alterar cores: na div interna, definir cor com bg-cor;
+  - para definir altura, definir style="height: 2px;" no lugar da width;
+  - listrada: aplicar classe "progress-bar-striped" na div interna;
+  - animado: adicionar classe "progress-bar-animated" na div interna.<br>
+
+E) Múltiplas barras:
+- inserir várias divs internas para cada %. <br>
+
+<hr>
+
+## Aula 19 - Tabelas & Paginação - parte 01.
