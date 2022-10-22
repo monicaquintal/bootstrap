@@ -503,3 +503,12 @@ A) Tabelas:
 
 B) Paginação:
 - pode ser usada dentro da tabela;
+- aplicação:
+  - &lt;ul class="pagination"&gt;;
+  - &lt;li class="page-item"&gt;
+  - &lt;a href="" class="page-link"&gt;.
+- classe "active" seleciona o número, como se o usuário estivasse naquela página, "disabled" desativa.
+- classe "justify-content-alinhamento desejado" (center ou end, esquerda já vem como padrão);
+- tamanho da tabela: utilizar a classe "position-tamanho", podendo ser sm ou lg;
+- setas: &laquo ; e &raquo ; (l de left e r de right);
+- a class="sr-only" quer dizer "screen reader only" - ou seja, o conteúdo nao aparecerá, apenas será lido em caso de uso de leitor de tela (como exemplo, o prof. insere as setas, e "oculta" a palavra "Próximo", sendo lido apenas por leitores de tela, para pessoas com deficiência visual, por exemplo).
