@@ -483,4 +483,23 @@ E) Múltiplas barras:
 
 <hr>
 
-## Aula 19 - Tabelas & Paginação - parte 01.
+## Aulas 19 e 20 - Tabelas & Paginação - partes 01 e 02.
+
+- a tag &lt;thead&gt; agrupa os cabeçalhos da tabela.
+- a tag &lt;tbody&gt; agrupa conteúdos da tabela.
+- a tag &lt;tfoot&gt; define o rodapé da tabela.
+<p>Diferenciar o conteúdo do cabeçalho permite definir scrolls diferentes. </p>
+
+A) Tabelas: 
+- class="table" traz uma formatação específica para a tabela;
+- table-cor define uma cor à tabela (como class="table-dark);
+- podemos aplicar a class="thead-dark" para deixar apenas o cabeçalho escuro;
+- table-striped deixa a tabela com cores alternadas;
+- table-bordered: insere borda;
+(podemos combinar table-bordered e table-striped)
+- é possível aplicar também as Classes contextuais (table-success, table-danger, etc);
+- classe "table-sm" define uma configuração de trmano menor.
+- classe "table-responsive: 
+
+B) Paginação:
+- pode ser usada dentro da tabela;
