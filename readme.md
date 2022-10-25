@@ -549,4 +549,21 @@ F) cartão com navegação:
 - &lt;li class="nav-item"&gt;;
 - &lt;a class="nav-link active" href=""&gt;;
   - podemos aplicar "disabled" ou "active". 
+<br>
+<hr>
 
+
+## Aula 22: Cards (parte 02).
+
+A) Cartão com cores de fundo:
+- para aplicar cor de fundo, usar a class "bg-cor", já estudada anteriormente, na div que define o card.<br>
+
+B) Inserindo bordas: 
+- "border-cor" na div que define o card.<br>
+
+C) Cartão com colunas:
+- criar uma div, onde serão inseridos os cards, e atribuir a class="card-columns".<br>
+
+<hr>
+
+## Aula 23: Jumbotron & Alinhamento de imagens.
