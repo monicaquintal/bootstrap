@@ -511,4 +511,42 @@ B) Paginação:
 - classe "justify-content-alinhamento desejado" (center ou end, esquerda já vem como padrão);
 - tamanho da tabela: utilizar a classe "position-tamanho", podendo ser sm ou lg;
 - setas: &laquo ; e &raquo ; (l de left e r de right);
-- a class="sr-only" quer dizer "screen reader only" - ou seja, o conteúdo nao aparecerá, apenas será lido em caso de uso de leitor de tela (como exemplo, o prof. insere as setas, e "oculta" a palavra "Próximo", sendo lido apenas por leitores de tela, para pessoas com deficiência visual, por exemplo).
+- a class="sr-only" quer dizer "screen reader only" - ou seja, o conteúdo nao aparecerá, apenas será lido em caso de uso de leitor de tela (como exemplo, o prof. insere as setas, e "oculta" a palavra "Próximo", sendo lido apenas por leitores de tela, para pessoas com deficiência visual, por exemplo).<br>
+
+<hr>
+
+## Aula 21: Cards (parte 01).
+
+É um recurso novo, adicionado na versão 4 do Bootstrap. <br>
+
+A) Para utilizar um card simples:
+- &lt;div class="card"&gt; para definir o card.
+- &lt;div class="card-body"&gt; no body do card.
+- &lt;h4 class="card-title"&gt; define o título.
+- &lt;h6 class="card-subtitle"&gt; para subtítulo.
+- &lt;p class="card-text"&gt; para o texto.
+
+B) para inserir imagem, &lt;img class="card-img-bottom"&gt;;
+- o prof. disponibiliza o site: https://unsplash.com/developers para gerar imagens randômicas, podendo inclusive informar o tamanho desejado, e posteriormente incluir no src da tag img.
+- pode atribuir "top" ou "bottom" à imagem, que não define sua localização no card, e sim as configurações de bordas e arredondamentos.
+
+C) para que o conteúdo do card fique sobre a imagem:
+- utilizar &lt;img class="card-img"&gt;, e
+- no lugar de &lt;div class="card-body"&gt;, inserir - &lt;div class="card-img-overlay"&gt; no body do card;
+- na &lt;div class="card"&gt;, é possível atribuir também classes como "text-white".
+
+D) inserindo cabeçalho:
+- incluir uma div para cabeçalho, antes da div do body do card;
+- atribuir class="card-header". 
+
+E) rodapé:
+- abaixo do card body, incluir uma div com class="card-footer";
+- podemos inclusive alinhar o texto com class "right", "left" e "center".
+
+F) cartão com navegação:
+- &lt;ul class="nav nav-tabs card-header-tabs"&gt;;
+  - card-header-tabs garante configurações específicas para cabeçalho.
+- &lt;li class="nav-item"&gt;;
+- &lt;a class="nav-link active" href=""&gt;;
+  - podemos aplicar "disabled" ou "active". 
+
