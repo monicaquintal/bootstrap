@@ -586,3 +586,27 @@ C) Listas com imagens:
 - div após img: class="media-body".<br>
 
 ## Aula 24: Ícones.
+
+Acessar o link: https://getbootstrap.com/docs/4.0/extend/icons/ (Documentação Oficial Bootstrap > Extend > Icons).
+<br>
+Os ícones se comportam como letras: permitem alterar cores e tavanhos, por exemplo.
+<br>
+Na aula, são utilizados <a href="https://useiconic.com/page/bouncy.php?&bpae=GbhGtLfmtEx79bvvvfFGXBZCSfilfiBb5cw1omsUFH6jp3Z4T51pT%2BmbdIoBhJjC7NZhyyCG9DqT8GLwlJW2G1x0%2FKUhoGWu0eNR7ABm9hNFbeHwGXgzeHSkUXzyFSWUL8q0iF6UQYPg3js6JNBx9PLvFcHw6gRXpwgVtbfg%2BBnclL4%2F87hn%2FMrV4W0MnzUKcdDaHosrHB1TSSb5FMYwumsHriiYo8niSSgEOEMHVIVDP7mbDp47keb5dxdW7Ta8sLJq6axZYRoBCoHbyn2IrCw%2B4jITNkVhwgc6DhouuGKwVD0XijhQLfhr%2BMUSlv1vvnKWKUWViIRclfl7fBr9HL2VZQaHqJrEnWvAmqIWUDN1hSgm0qsQ4LvMQSyuGuSDDYclfwtUu6AorVjcyNZZQMrozcrH0AlEYLbA2vA%2F%2BdNcjNIRkD3RYTubZ0mltGAHJr6mNWT89hYlKVwVitv8lupMxU2GZTO%2FvlTJIrONMF1zq9N5%2BiFQcFR4nI%2BRKJnN83g%3D&redirectType=js&inIframe=false&inPopUp=true">Iconic</a>, que estava fora do ar quando iniciei a aula, e <a href="https://fontawesome.com/icons?d=gallery&m=free">Font Awesome</a>.
+<br>
+Fazer download das versões de cada um dos links. É possível também copiar o link e utiizá-lo, sem a necessidade de fazer download.
+<br>
+A) Iconic:
+- pode ser usado como link (atributo da tag img);
+- inserir no HTML:
+  - &lt;link href="iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet"&gt;;
+- escolher um ícone -> usar basicamente a class="oi oi-nomeDoIcone";
+- definições: podemos alterar tamanho e cor;
+- podem ser aplicados em span, tag i, etc.
+<br>
+B) Font Awesome: 
+- usa basicamente a mesma estrutura;
+- inserir no HTML:
+  - &lt;link href="link rel="stylesheet" href="fontawesome/css/all.css"&gt;.
+<br>
+
+## Aula 25: Sistema de grid (parte 01).
