@@ -567,3 +567,22 @@ C) Cartão com colunas:
 <hr>
 
 ## Aula 23: Jumbotron & Alinhamento de imagens.
+
+ Jumbotron é uma classe que permite definir uma área de destaque no site.
+
+ A) Jumbotron: class="jumbotron" na div externa.
+
+ B) Alinhamento de imagens:
+ - class="media",  e class="media-body" -> alinha a imagem ao lado do título do conteúdo;
+ - alinhamentos: align-self-ALINHAMENTO (start, center, end).
+  - start alinha no topo;
+  - center alinha no centro da mídia;
+  - end alinha ao final do media-body.
+
+C) Listas com imagens:
+- ul: class="list-unstyled";
+- li: class="media";
+- img: aplicar alinhamento e espaçamento desejados;
+- div após img: class="media-body".<br>
+
+## Aula 24: Ícones.
