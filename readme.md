@@ -587,6 +587,8 @@ C) Listas com imagens:
 
 ## Aula 24: Ícones.
 
+Arquivo font-awesome.html.
+<br>
 Acessar o link: https://getbootstrap.com/docs/4.0/extend/icons/ (Documentação Oficial Bootstrap > Extend > Icons).
 <br>
 Os ícones se comportam como letras: permitem alterar cores e tavanhos, por exemplo.
@@ -596,6 +598,7 @@ Na aula, são utilizados <a href="https://useiconic.com/page/bouncy.php?&bpae=Gb
 Fazer download das versões de cada um dos links. É possível também copiar o link e utiizá-lo, sem a necessidade de fazer download.
 <br>
 A) Iconic:
+
 - pode ser usado como link (atributo da tag img);
 - inserir no HTML:
   - &lt;link href="iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet"&gt;;
@@ -604,6 +607,7 @@ A) Iconic:
 - podem ser aplicados em span, tag i, etc.
 <br>
 B) Font Awesome: 
+
 - usa basicamente a mesma estrutura;
 - inserir no HTML:
   - &lt;link href="link rel="stylesheet" href="fontawesome/css/all.css"&gt;.
