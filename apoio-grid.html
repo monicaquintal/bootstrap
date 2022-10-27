@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+
+    <title>Bootstrap - Sistema de grids</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style type="text/css">
+
+      .marcador {
+        background: #fe9d9d;
+        border: 1px solid #f94646;
+      }
+
+      .marcador-container {
+        background: #5bf946;
+        border: 1px solid #36ae26;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <h2>Utilizando Sistema de grid:</h2>
+    <p>Verde = container; vermelho = conteúdo</p>
+
+    <hr>
+
+    <h2>Inicialmente para extra small devices (classe col-numeroDeColunas):</h2>
+    <h3>Ocupando todo o espaçamento do container:</h3>
+    <div class="container marcador-container">
+      <div class="row">
+        <div class="marcador col-12">Área 1</div>
+      </div>
+    </div>
+
+    <h3>Ocupando metade do espaçamento do container:</h3>
+    <div class="container marcador-container">
+      <div class="row">
+        <div class="marcador col-6">Área 1</div>
+      </div>
+    </div>
+
+    <h3>Adicionando outro conteúdo ao container (na mesma row):</h3>
+    <div class="container marcador-container">
+      <div class="row">
+        <div class="marcador col-6">Área 1</div>
+        <div class="marcador col-6">Área 2</div>
+      </div>
+    </div>
+
+    <hr>
+
+    <h2>Definindo breakpoints para outros tamanhos de dispositivos:</h2>
+    <ul>Para dispositivos:
+    <li>extra smal:, col-6 e col-6;</li>
+    <li>small: col-sm-2 e col-sm-10;</li>
+    <li>medium: col-md-10 e col-md-2. </li>
+    </ul>
+    <div class="container marcador-container">
+      <div class="row">
+        <div class="marcador col-6 col-sm-2 col-md-10">Área 1</div>
+        <div class="marcador col-6 col-sm-10 col-md-2">Área 2</div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -633,3 +633,20 @@ Nos parâmetros de grid, há cinco "breakpoints", que definem como será a exibi
 <hr>
 
 ## Aula 26: Sistema de grid (parte 02).
+
+O conteúdo da aula foi desenvolvido no arquivo <strong>apoio-grid.html</strong>.
+
+No Bootstrap, quando utilizamos uma "class=row", criamos um flex container.
+
+Tamanhos de dispositivos:
+- extra small: classe col-numeroDeColunas;
+- small: classe col-sm-numeroDeColunas;
+- medium: classe col-md-numeroDeColunas;
+- large: classe col-lg-numeroDeColunas;
+- extra large: classe col-xl-numeroDeColunas.
+
+Por mais que aumente o tamanho do container, ele permanece ocupando a proporção determinada.
+<br>
+<hr>
+
+## Aula 27: Sistema de grid (parte 03).
