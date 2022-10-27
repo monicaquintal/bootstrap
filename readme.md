@@ -597,6 +597,7 @@ Na aula, são utilizados <a href="https://useiconic.com/page/bouncy.php?&bpae=Gb
 <br>
 Fazer download das versões de cada um dos links. É possível também copiar o link e utiizá-lo, sem a necessidade de fazer download.
 <br>
+
 A) Iconic:
 
 - pode ser usado como link (atributo da tag img);
@@ -613,4 +614,22 @@ B) Font Awesome:
   - &lt;link href="link rel="stylesheet" href="fontawesome/css/all.css"&gt;.
 <br>
 
+<hr>
+
 ## Aula 25: Sistema de grid (parte 01).
+
+O Sistema de Grid permite definir as áreas que um determinado conteúdo ocupa. 
+
+O Sistema utiliza um total de <strong>12 grids</strong> - dentro de uma determinada área, podemos criar os layouts (ex: criar uma área que ocupe um número específico de grids).
+
+São 12 colunas, que definem as larguras máximas que podemos utilizar. Há também 12 colunas dentro da área disponível para montagem do layout.
+
+A estrutura das grids é esquematizada nas três imagens localizadas na pasta "<strong>imagens-grid-aula 25</strong>".
+
+É disponibilizado também o conteúdo da Documentação de Sistema grid no <a href="https://getbootstrap.com.br/docs/4.1/layout/grid/">site do Bootstrap</a>.
+
+Nos parâmetros de grid, há cinco "breakpoints", que definem como será a exibição para um determinado tamanho de dispositivo. Devemos criar um container para aplicar essas classes (extra small, small, medium, large e extra large).
+<br>
+<hr>
+
+## Aula 26: Sistema de grid (parte 02).
