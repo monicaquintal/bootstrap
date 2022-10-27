@@ -650,3 +650,5 @@ Por mais que aumente o tamanho do container, ele permanece ocupando a proporçã
 <hr>
 
 ## Aula 27: Sistema de grid (parte 03).
+
+Podemos definir, por exemplo, o grid para um dispositivo medium. Todod os dispositivos maiores que ele seguirão a mesma configuração (duas colunas lado a lado, por exemplo). Dispositivos menores, nesse caso,  colocarão os conteúdos um abaixo do outro (coluna).
