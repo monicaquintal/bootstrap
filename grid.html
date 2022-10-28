@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <style type="text/css">
+      /* AULAS 25 A 29*/
+      
       .marcador {
         background: #fe9d9d;
         border: 1px solid #f94646;
@@ -23,6 +25,17 @@
       }
       .borda{
         border: 1px solid blue;
+      }
+
+      /* AULA 30 */
+
+      .caixa {
+        background: #f5f5f5;
+        height: 200px;
+      }
+      .item {
+        border:1px solid black;
+        padding: 5px;
       }
       
     </style>
@@ -217,6 +230,59 @@
     </div>
     <hr>
 </div> <!-- FIM AULA 29 -->
+
+<div>
+  <h1>AULA 30 - CLASSES DO FLEXBOX.</h1>
+
+<div class="container">
+
+  <h2>Flex container e flex itens (d-flex, flex-row, flex-column, flex-row-reverse)</h2>
+  <div class="caixa d-flex flex-row-reverse">
+    <div class="item">Flex item 1</div>
+    <div class="item">Flex item 2</div>
+    <div class="item">Flex item 3</div>
+  </div>
+  <br><br>
+
+  <h2>Alinhamento horizontal: justify-content-ALINHAMENTO (start, center, end, around e between)</h2>
+  <div class="caixa d-flex justify-content-between">
+    <div class="item">Flex item 1</div>
+    <div class="item">Flex item 2</div>
+    <div class="item">Flex item 3</div>
+  </div>
+  <br><br>
+
+  <h2>Colunas (d-flex, flex-column, flex-column-reverse)</h2>
+  <div class="caixa d-flex flex-column-reverse">
+    <div class="item">Flex item 1</div>
+    <div class="item">Flex item 2</div>
+    <div class="item">Flex item 3</div>
+  </div>
+  <br><br>
+
+  <h2>Alinhamento vertical: align-items-ALINHAMENTO (start, center, end, baseline e stretch)</h2>
+  <div class="caixa d-flex align-items-stretch">
+    <div class="item" style="padding-top: 30px;">Flex item 1</div>
+    <div class="item">Flex item 2</div>
+    <div class="item" style="padding-bottom: 50px;">Flex item 3</div>
+  </div>
+  <br><br>
+
+  <h2>Alinhamento self: align-self-ALINHAMENTO (start, center, end, baseline e stretch)</h2>
+  <div class="caixa d-flex">
+    <div class="item align-self-start">Flex item 1</div>
+    <div class="item align-self-center">Flex item 2</div>
+    <div class="item align-self-end">Flex item 3</div>
+    <div class="item align-self-baseline">Flex item 4</div>
+    <div class="item align-self-stretch">Flex item 5</div>
+  </div>
+  <br><br>
+  </div>
+  <hr>
+</div> <!-- FIM DA AULA 30 -->
+
+</body>
+
 
 
     <!-- Optional JavaScript -->

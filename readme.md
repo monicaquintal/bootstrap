@@ -732,4 +732,25 @@ E) Removendo espaçamento:
 
 <hr>
 
-## AULA 30 - Classes do Flexbox.
+## Aula 30 - Classes do Flexbox.
+
+O conteúdo da aula foi desenvolvido no arquivo <strong>grid.html</strong>.
+
+Usando flexbox sem aplicar row.
+
+A) Flex container e flex itens (d-flex, flex-row, flex-column, flex-row-reverse):
+
+- podemos não utilizar a classe row, apenas utilizar a class="d-flex";
+- podemos também definir a direção: flex-row, flex-column, flex-row-reverse.
+
+B) Alinhamento horizontal: justify-content-ALINHAMENTO (start, center, end, around e between).
+
+C) Colunas (d-flex, flex-column, flex-column-reverse).
+
+D) Alinhamento vertical: align-items-ALINHAMENTO (start, center, end, baseline e stretch).
+
+E) Alinhamento self: align-self-ALINHAMENTO (start, center, end, baseline e stretch.
+
+<hr>
+
+## Aula 31 - Margin & Wrap.
