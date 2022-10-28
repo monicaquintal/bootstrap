@@ -754,3 +754,11 @@ E) Alinhamento self: align-self-ALINHAMENTO (start, center, end, baseline e stre
 <hr>
 
 ## Aula 31 - Margin & Wrap.
+
+A) Margin right/left auto (mr-auto, ml-auto).
+
+B) Margin bottom/top auto (mb-auto, mt-auto).
+
+C) Wrap (flex-wrap, flex-nowrap).
+- nowrap = um item ao lado do outro; se não couber, aparece a barra de rolagem (é o padrão).
+- flex-wrap = quebra os itens para a próxima linha.
