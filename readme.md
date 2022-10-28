@@ -657,7 +657,7 @@ Podemos definir, por exemplo, o grid para um dispositivo medium. Todod os dispos
 
 ## Aula 28: Configurações do grid.
 
-O conteúdo da aula foi desenvolvido no arquivo <strong>configuracoes-grid.html</strong>.
+O conteúdo da aula foi desenvolvido no arquivo <strong>grid.html</strong>.
 
 O <strong>container</strong> é usado para abrigar todos os conteúdos.
 Há dois tipos de container:
@@ -700,3 +700,36 @@ G) Aninhamento:
 <hr>
 
 ## Aula 29: Alinhamento no grid.
+
+O conteúdo da aula foi desenvolvido no arquivo <strong>grid.html</strong>.
+
+Ao criar a row, cria-se um flex container automaticamente, e os flex itens ficam em seu interior.
+
+A) Alinhamento vertical: 
+
+- aplica os alinhamentos no flex-items;
+- class="align-items-ALINHAMENTO", sendo as opções: start, center, end. 
+
+B) Alinhamento vertical individual:
+
+- aplicar alinhamentos diretamente nos flex-items;
+- class="align-self-ALINHAMENTO", sendo as opções: start, center, end.
+
+C) Alinhamento horizontal nas colunas:
+
+- aplicar o alinhamento diretamente no flex container;
+- class="justify-content-ALINHAMENTO", sendo as opções: start, center, end.
+
+D) Distribuição:
+
+- aplicado no flex container;
+- distribui espaçamento entre os itens;
+- class="justify-content-ALINHAMENTO", sendo as opções: around, between, end.
+
+E) Removendo espaçamento: 
+
+- class="no-gutters".
+
+<hr>
+
+## AULA 30 - Classes do Flexbox.

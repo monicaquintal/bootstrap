@@ -2,7 +2,7 @@
 <html lang="pt-br">
   <head>
 
-    <title>Bootstrap - Sistema de grids</title>
+    <title>Bootstrap - Grids</title>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -12,99 +12,213 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <style type="text/css">
-
       .marcador {
         background: #fe9d9d;
         border: 1px solid #f94646;
+        height: 120px;
       }
-
       .marcador-container {
         background: #5bf946;
         border: 1px solid #36ae26;
       }
-
+      .borda{
+        border: 1px solid blue;
+      }
+      
     </style>
 
   </head>
 
   <body>
 
-    <h2>Utilizando Sistema de grid:</h2>
-    <p>Verde = container; vermelho = conteúdo</p>
+<div>
+  <h1>AULAS 25 a 27 - SISTEMAS DE GRID.</h1>
 
+  <h2>Utilizando Sistema de grid:</h2>
+  <p>Verde = container; vermelho = conteúdo</p>
+
+  <hr>
+
+  <h2>Inicialmente para extra small devices (classe col-numeroDeColunas):</h2>
+  <h3>Ocupando todo o espaçamento do container:</h3>
+  <div class="container marcador-container">
+    <div class="row">
+      <div class="marcador col-12">Área 1</div>
+    </div>
+  </div>
+
+  <h3>Ocupando metade do espaçamento do container:</h3>
+  <div class="container marcador-container">
+    <div class="row">
+      <div class="marcador col-6">Área 1</div>
+    </div>
+  </div>
+
+  <h3>Adicionando outro conteúdo ao container (na mesma row):</h3>
+  <div class="container marcador-container">
+    <div class="row">
+      <div class="marcador col-6">Área 1</div>
+      <div class="marcador col-6">Área 2</div>
+    </div>
+  </div>
+
+  <hr>
+
+  <h2>Definindo breakpoints para outros tamanhos de dispositivos:</h2>
+  <ul>Para dispositivos:
+  <li>extra smal:, col-6 e col-6;</li>
+  <li>small: col-sm-2 e col-sm-10;</li>
+  <li>medium: col-md-10 e col-md-2; </li>
+  <li>large: col-lg-2 e col-lg-10;</li>
+  <li>extra larga: col-xl-10 e col-xl-2. </li>
+  </ul>
+  <div class="container marcador-container">
+    <div class="row">
+      <div class="marcador col-6 col-sm-2 col-md-10 col-lg-2">Área 1</div>
+      <div class="marcador col-6 col-sm-10 col-md-2 col-lg-10">Área 2</div>
+    </div>
+  </div>
+
+  <h2>Utilizando o breakpoint:</h2>
+  <p>Definir o tamanho mínimo de dispositivo a receber uma configuração (as demais maiores seguirão esse padrão, pois é &gt;=)</p>
+  <div class="container marcador-container">
+    <div class="row">
+      <div class="marcador col-md-6">Área 1</div>
+      <div class="marcador col-md-6">Área 2</div>
+    </div>
+  </div>
+
+  <h2>Criando áreas com conteúdos reais:</h2>
+  <div class="container marcador-container">
+    <div class="row">
+      <div class="bg-primary col-md-6 col-xl-4">
+        <h3>Lorem ipsum dolorem sit amet</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur facilisis felis, ac mollis libero pretium ac. Donec elementum consequat dolor at sodales. Suspendisse arcu lorem, pellentesque sit amet dictum vitae, vestibulum eget urna. Donec ut enim tincidunt neque ornare consectetur at in est.</p>
+        <button class="btn btn-danger">Leia mais</button>
+      </div>
+      <div class="bg-secondary col-md-6 col-xl-4">
+        <h3>Sed id risus mi.</h3>
+        <p>Sed id risus mi. Nulla risus nulla, ornare eget arcu vel, feugiat condimentum nisl. Mauris viverra, neque at auctor ullamcorper, dolor justo tempor lacus, vitae finibus ipsum turpis sed lorem. Nullam fringilla diam in dui sollicitudin facilisis. Morbi feugiat mauris nec nisi condimentum feugiat. .</p>
+        <button class="btn btn-secondary">Leia mais</button>
+      </div>
+      <div class="bg-warning col-md-6 col-xl-4">
+        <h3>Lorem ipsum dolorem sit amet</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur facilisis felis, ac mollis libero pretium ac. Donec elementum consequat dolor at sodales. Suspendisse arcu lorem, pellentesque sit amet dictum vitae, vestibulum eget urna. Donec ut enim tincidunt neque ornare consectetur at in est.</p>
+        <button class="btn btn-primary">Leia mais</button>
+      </div>
+    </div>
+  </div>
+
+
+<hr>
+
+</div> <!-- FIM AULAS 25 A 27 -->
+
+<div>
+  <h1>AULA 28 - CONFIGURAÇÕES DO GRID.</h1>
+
+  <div class="container marcador-container">
+      
+    <h2>Largura fixa</h2>
+    <div class="row">
+      <div class="marcador col">área 1</div>
+      <div class="marcador col">área 2</div>
+      <div class="marcador col">área 3</div>
+      <div class="marcador col">área 4</div>
+    </div>
+
+    <h2>Largura automática (auto-layout)</h2>
+    <div class="row">
+      <div class="marcador col">área 1</div>
+      <div class="marcador col">área 2</div>
+      <div class="marcador col-6">área 3</div>
+    </div>
+
+    <h2>Largura igual empilhada</h2>
+    <div class="row">
+      <div class="marcador col-sm">área 1</div>
+      <div class="marcador col-sm">área 2</div>
+      <div class="marcador col-sm">área 3</div>
+    </div>
+
+    <h2>Ordenando</h2>
+    <div class="row">
+      <div class="marcador col-md-4 order-2">área 1</div>
+      <div class="marcador col-md-4 order-3">área 2</div>
+      <div class="marcador col-md-4 order-1">área 3</div>
+    </div>
+
+    <h2>Offset</h2>
+    <div class="row">
+      <div class="marcador col-md-6 offset-md-3">Login...</div>
+    </div>
+
+    <h2>Offset múltiplos alinhamentos</h2>
+    <div class="row">
+      <div class="marcador col-md-3">Conteúdo 1</div>
+      <div class="marcador col-md-3 offset-md-6">Conteúdo 2</div>
+    </div>
+
+    <h2>Aninhamento</h2>
+    <div class="row">
+      <div class="col-md-6" style="border: 1px solid blue">
+        col-md-6
+        <div class="row">
+          <div class="col-md-9 marcador">Conteúdo 1</div>
+          <div class="col-md-3 marcador">Conteúdo 2</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<hr>
+
+</div> <!-- FIM AULA 28 -->
+
+<div>
+<h1>AULA 29 - ALINHAMENTO NO GRID.</h1>
+
+    <div class="container">
+
+      <h2>Alinhamento vertical (align-items-ALINHAMENTO: start, center, end)</h2>
+      <div class="marcador row align-items-center">
+        <div class="col borda">Área 1</div>
+        <div class="col borda">Área 2</div>
+        <div class="col borda">Área 3</div>
+      </div>
+
+      <h2>Alinhamento vertical individual (align-self-ALINHAMENTO: start, center, end)</h2>
+      <div class="marcador row">
+        <div class="col borda align-self-center">Área 1</div>
+        <div class="col borda align-self-start">Área 2</div>
+        <div class="col borda align-self-end">Área 3</div>
+      </div>
+
+      <h2>Alinhamento horizontal colunas (justify-content-ALINHAMENTO: start, center, end)</h2>
+      <div class="row justify-content-center">
+        <div class="marcador col-2">Área 1</div>
+        <div class="marcador col-2">Área 2</div>
+        <div class="marcador col-2">Área 3</div>
+      </div>
+
+      <h2>Distribuição (justify-content-ALINHAMENTO: around, between, end)</h2>
+      <div class="row borda justify-content-around">
+        <div class="marcador col-2">Área 1</div>
+        <div class="marcador col-2">Área 2</div>
+        <div class="marcador col-2">Área 3</div>
+      </div>
+
+      <h2>Removendo espaçamento</h2>
+      <div class="row no-gutters">
+        <div class="borda col-2">Área 1</div>
+        <div class="borda col-2">Área 2</div>
+        <div class="borda col-2">Área 3</div>
+      </div>
+    </div>
     <hr>
+</div> <!-- FIM AULA 29 -->
 
-    <h2>Inicialmente para extra small devices (classe col-numeroDeColunas):</h2>
-    <h3>Ocupando todo o espaçamento do container:</h3>
-    <div class="container marcador-container">
-      <div class="row">
-        <div class="marcador col-12">Área 1</div>
-      </div>
-    </div>
 
-    <h3>Ocupando metade do espaçamento do container:</h3>
-    <div class="container marcador-container">
-      <div class="row">
-        <div class="marcador col-6">Área 1</div>
-      </div>
-    </div>
-
-    <h3>Adicionando outro conteúdo ao container (na mesma row):</h3>
-    <div class="container marcador-container">
-      <div class="row">
-        <div class="marcador col-6">Área 1</div>
-        <div class="marcador col-6">Área 2</div>
-      </div>
-    </div>
-
-    <hr>
-
-    <h2>Definindo breakpoints para outros tamanhos de dispositivos:</h2>
-    <ul>Para dispositivos:
-    <li>extra smal:, col-6 e col-6;</li>
-    <li>small: col-sm-2 e col-sm-10;</li>
-    <li>medium: col-md-10 e col-md-2; </li>
-    <li>large: col-lg-2 e col-lg-10;</li>
-    <li>extra larga: col-xl-10 e col-xl-2. </li>
-    </ul>
-    <div class="container marcador-container">
-      <div class="row">
-        <div class="marcador col-6 col-sm-2 col-md-10 col-lg-2">Área 1</div>
-        <div class="marcador col-6 col-sm-10 col-md-2 col-lg-10">Área 2</div>
-      </div>
-    </div>
-
-    <h2>Utilizando o breakpoint:</h2>
-    <p>Definir o tamanho mínimo de dispositivo a receber uma configuração (as demais maiores seguirão esse padrão, pois é &gt;=)</p>
-    <div class="container marcador-container">
-      <div class="row">
-        <div class="marcador col-md-6">Área 1</div>
-        <div class="marcador col-md-6">Área 2</div>
-      </div>
-    </div>
-
-    <h2>Criando áreas com conteúdos reais:</h2>
-    <div class="container marcador-container">
-      <div class="row">
-        <div class="marcador col-md-6 col-xl-4">
-          <h3>Lorem ipsum dolorem sit amet</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur facilisis felis, ac mollis libero pretium ac. Donec elementum consequat dolor at sodales. Suspendisse arcu lorem, pellentesque sit amet dictum vitae, vestibulum eget urna. Donec ut enim tincidunt neque ornare consectetur at in est.</p>
-          <button class="btn btn-danger">Leia mais</button>
-        </div>
-        <div class="marcador col-md-6 col-xl-4">
-          <h3>Sed id risus mi.</h3>
-          <p>Sed id risus mi. Nulla risus nulla, ornare eget arcu vel, feugiat condimentum nisl. Mauris viverra, neque at auctor ullamcorper, dolor justo tempor lacus, vitae finibus ipsum turpis sed lorem. Nullam fringilla diam in dui sollicitudin facilisis. Morbi feugiat mauris nec nisi condimentum feugiat. .</p>
-          <button class="btn btn-secondary">Leia mais</button>
-        </div>
-        <div class="marcador col-md-6 col-xl-4">
-          <h3>Lorem ipsum dolorem sit amet</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur facilisis felis, ac mollis libero pretium ac. Donec elementum consequat dolor at sodales. Suspendisse arcu lorem, pellentesque sit amet dictum vitae, vestibulum eget urna. Donec ut enim tincidunt neque ornare consectetur at in est.</p>
-          <button class="btn btn-primary">Leia mais</button>
-        </div>
-      </div>
-    </div>
-
-    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
