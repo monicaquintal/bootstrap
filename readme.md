@@ -634,7 +634,7 @@ Nos parâmetros de grid, há cinco "breakpoints", que definem como será a exibi
 
 ## Aula 26: Sistema de grid (parte 02).
 
-O conteúdo da aula foi desenvolvido no arquivo <strong>apoio-grid.html</strong>.
+O conteúdo da aula foi desenvolvido no arquivo <strong>grid.html</strong>.
 
 No Bootstrap, quando utilizamos uma "class=row", criamos um flex container.
 
@@ -652,3 +652,51 @@ Por mais que aumente o tamanho do container, ele permanece ocupando a proporçã
 ## Aula 27: Sistema de grid (parte 03).
 
 Podemos definir, por exemplo, o grid para um dispositivo medium. Todod os dispositivos maiores que ele seguirão a mesma configuração (duas colunas lado a lado, por exemplo). Dispositivos menores, nesse caso,  colocarão os conteúdos um abaixo do outro (coluna).
+
+<hr>
+
+## Aula 28: Configurações do grid.
+
+O conteúdo da aula foi desenvolvido no arquivo <strong>configuracoes-grid.html</strong>.
+
+O <strong>container</strong> é usado para abrigar todos os conteúdos.
+Há dois tipos de container:
+- aquele que centraliza o conteúdo (class="container");
+- um container fluido, que preenche toda a área de conteúdos (class="container-fluid").
+A <strong>row</strong>, por sua vez, ocupa todo o espaço delimitado pelo container. Dentro dela é que utilizamos o sistema de grid com 12 colunas.
+
+A) Largura fixa:
+
+- apenas escrever a classe "col", de coluna, cria uma largura fixa para todas as divs.
+
+B) Largura automática (auto-layout):
+
+- podemos definir uma largura específica (como col-4) para cada uma das divs.
+- o problema é que não se ajusta de acordo com o dispositivo.
+- ao definir apenas algumas das larguras, as demais divs ocuparão o espaço excedente.
+
+C) Largura igual empilhada:
+
+- definir o tamanho do dispositivo (como col-sm). 
+- ao reduzir o tamanho do dispositivo, empilhará as divs (é responsivo até ddeterminado tamanho, depois empilha). 
+
+D) Ordenado:
+
+- para ordenar, usar a class="order-numero".
+- colocar esse número em ordem crescente, da maior (1) pra menor prioridade.
+
+E) Offset:
+
+- são espaçamentos entre os elementos.
+- class="offset-tamanhoDispositivo-espaçamento";
+- o espaçamento insetido na classe acima indica quando espaços irá "pular".
+- podemos também utilizar offset para múltiplos alinhamentos.
+
+G) Aninhamento:
+
+- é possível colocar uma row dentro da outra (aninhamento);
+- cada row define um grio de 12 colunas; cada vez que cria uma nova row, pode utilizar um novo grid de 12 colunas.
+
+<hr>
+
+## Aula 29: Alinhamento no grid.
